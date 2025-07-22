@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vegetarian Recipes - Kriti Rai</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Login/Signup Section -->
+  <div id="auth-section" class="auth-container">
+    <h2>Login or Signup</h2>
+    <input type="text" id="username" placeholder="Enter Username" />
+    <input type="password" id="password" placeholder="Enter Password" />
+    <button onclick="login()">Login</button>
+    <button onclick="signup()">Signup</button>
+    <p id="auth-error"></p>
+  </div>
+
+  <!-- Recipe Section (hidden initially) -->
+  <div id="recipe-section" class="recipe-container hidden">
+    <h1>Vegetarian Recipes by Kriti Rai</h1>
+    <div class="grid">
+      <!-- Recipe Cards will be injected here by JS -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
